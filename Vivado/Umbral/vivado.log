@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep  1 13:34:30 2021
+# Process ID: 12848
+# Current directory: C:/Users/guill/Documents/Vivado/Umbral
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30068 C:\Users\guill\Documents\Vivado\Umbral\Umbral.xpr
+# Log file: C:/Users/guill/Documents/Vivado/Umbral/vivado.log
+# Journal file: C:/Users/guill/Documents/Vivado/Umbral\vivado.jou
+#-----------------------------------------------------------
+start_guieexit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  1 13:34:47 2021...

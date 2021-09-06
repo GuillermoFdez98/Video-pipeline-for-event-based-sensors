@@ -1,0 +1,169 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.004 seconds; current allocated memory: 191.551 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.895 seconds; current allocated memory: 191.478 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 191.416 MB.
+INFO: [HLS 200-10] Analyzing design file 'EventsToImage/eventsToImage.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.057 seconds; current allocated memory: 192.870 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator<<32, false>(int, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1616:520)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<32, true>::operator<<32, false>(ap_int_base<32, false> const&) const' into 'bool operator<<32, false>(int, ap_int_base<32, false> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_int_base.h:1616:558)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_uint<32>, 2ul, 5ul, 6ul> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_uint<32>, 2ul, 5ul, 6ul> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_uint<32>, 2ul, 5ul, 6ul> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_uint<32>, 2ul, 5ul, 6ul> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_uint<32>, 2ul, 5ul, 6ul> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_uint<32>, 2ul, 5ul, 6ul> const&)' (C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:35:17)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::write(hls::axis<ap_uint<32>, 2ul, 5ul, 6ul> const&)' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:89:10)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::operator unsigned long long() const' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:54:33)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::operator unsigned long long() const' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:54:13)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, false>::operator unsigned long long() const' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:54:48)
+INFO: [HLS 214-131] Inlining function 'bool operator<<32, false>(int, ap_int_base<32, false> const&)' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:53:8)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:37:18)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>::read()' into 'eventsToImage(hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_uint<32>, 2ul, 5ul, 6ul>, 0>&, ap_uint<32>)' (EventsToImage/eventsToImage.cpp:36:18)
+WARNING: [HLS 214-167] The program may have out of bound array access (EventsToImage/eventsToImage.cpp:59:25)
+WARNING: [HLS 214-167] The program may have out of bound array access (EventsToImage/eventsToImage.cpp:60:25)
+WARNING: [HLS 214-167] The program may have out of bound array access (EventsToImage/eventsToImage.cpp:61:25)
+WARNING: [HLS 214-167] The program may have out of bound array access (EventsToImage/eventsToImage.cpp:62:25)
+WARNING: [HLS 214-167] The program may have out of bound array access (EventsToImage/eventsToImage.cpp:63:23)
+WARNING: [HLS 214-167] The program may have out of bound array access (EventsToImage/eventsToImage.cpp:64:25)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 4.364 seconds; current allocated memory: 195.090 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 195.091 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.077 seconds; current allocated memory: 206.749 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.112 seconds; current allocated memory: 216.630 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.283 seconds; current allocated memory: 248.128 MB.
+INFO: [HLS 200-472] Inferring partial write operation for 'img' (EventsToImage/eventsToImage.cpp:21:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.keep.V' (EventsToImage/eventsToImage.cpp:43:16)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.strb.V' (EventsToImage/eventsToImage.cpp:44:16)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.user.V' (EventsToImage/eventsToImage.cpp:45:16)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.last.V' (EventsToImage/eventsToImage.cpp:46:16)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.id.V' (EventsToImage/eventsToImage.cpp:47:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.dest.V' (EventsToImage/eventsToImage.cpp:48:16)
+INFO: [HLS 200-472] Inferring partial write operation for 'img' (EventsToImage/eventsToImage.cpp:54:41)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.keep.V' (EventsToImage/eventsToImage.cpp:59:25)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.strb.V' (EventsToImage/eventsToImage.cpp:60:25)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.user.V' (EventsToImage/eventsToImage.cpp:61:25)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.last.V' (EventsToImage/eventsToImage.cpp:62:25)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.id.V' (EventsToImage/eventsToImage.cpp:63:23)
+INFO: [HLS 200-472] Inferring partial write operation for 'aux.dest.V' (EventsToImage/eventsToImage.cpp:64:25)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.707 seconds; current allocated memory: 246.971 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'eventsToImage' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'eventsToImage' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_17_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'VITIS_LOOP_17_1'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_29_2'.
+WARNING: [HLS 200-880] The II Violation in module 'eventsToImage' (loop 'VITIS_LOOP_29_2'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('16383_write_ln64', EventsToImage/eventsToImage.cpp:64) of variable 'p_dest' on array 'aux_dest_V' and 'store' operation ('aux_dest_V_addr_write_ln48', EventsToImage/eventsToImage.cpp:48) of variable 'p_dest' on array 'aux_dest_V'.
+WARNING: [HLS 200-880] The II Violation in module 'eventsToImage' (loop 'VITIS_LOOP_29_2'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between axis read on port 'input_V_data_V' and axis read on port 'input_V_data_V'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 3, Depth = 4, loop 'VITIS_LOOP_29_2'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_74_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_74_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.243 seconds; current allocated memory: 247.333 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.203 seconds; current allocated memory: 247.796 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'eventsToImage' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/input_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/input_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/input_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/input_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/input_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/input_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/input_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/output_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/output_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/output_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/output_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/output_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/output_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/output_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'eventsToImage/num_events' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'eventsToImage' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Bundling port 'num_events' to AXI-Lite port hls_ctrl.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'eventsToImage'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.313 seconds; current allocated memory: 248.879 MB.
+INFO: [RTMG 210-278] Implementing memory 'eventsToImage_img_ram (RAM)' using auto RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'eventsToImage_aux_keep_V_ram (RAM)' using auto RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'eventsToImage_aux_user_V_ram (RAM)' using auto RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'eventsToImage_aux_last_V_ram (RAM)' using auto RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'eventsToImage_aux_id_V_ram (RAM)' using auto RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'eventsToImage_aux_dest_V_ram (RAM)' using auto RAMs with power-on initialization.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 2.333 seconds; current allocated memory: 257.224 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for eventsToImage.
+INFO: [VLOG 209-307] Generating Verilog RTL for eventsToImage.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 148.81 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 7 seconds. CPU system time: 1 seconds. Elapsed time: 16.082 seconds; current allocated memory: 257.487 MB.
+INFO: [HLS 200-112] Total CPU user time: 10 seconds. Total CPU system time: 2 seconds. Total elapsed time: 18.702 seconds; peak allocated memory: 257.224 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output C:/Users/guill/Documents/Vitis_workspace/TFM/EventsToImage/eventsToImage.zip 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file EventsToImage/eventsToImage.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 9.367 seconds; current allocated memory: 199.665 MB.

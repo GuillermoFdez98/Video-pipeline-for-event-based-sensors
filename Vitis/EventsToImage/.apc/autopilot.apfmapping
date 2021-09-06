@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="eventsToImage.h" path="C:\Users\guill\Documents\Vitis_workspace\TFM\EventsToImage\eventsToImage.h"/>
+    <originFiles name="eventsToImage.cpp" path="C:\Users\guill\Documents\Vitis_workspace\TFM\EventsToImage\eventsToImage.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="eventsToImage_tb.cpp" path="C:\Users\guill\Documents\Vitis_workspace\TFM\EventsToImage\eventsToImage_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

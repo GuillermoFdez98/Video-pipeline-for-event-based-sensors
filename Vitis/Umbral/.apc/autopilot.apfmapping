@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="umbral.h" path="C:\Users\guill\Documents\Vitis_workspace\TFM\Umbral\umbral.h"/>
+    <originFiles name="umbral.cpp" path="C:\Users\guill\Documents\Vitis_workspace\TFM\Umbral\umbral.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="umbral_tb.cpp" path="C:\Users\guill\Documents\Vitis_workspace\TFM\Umbral\umbral_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

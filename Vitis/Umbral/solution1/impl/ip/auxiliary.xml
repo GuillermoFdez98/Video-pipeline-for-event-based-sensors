@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="umbral" xd:componentRef="umbral" xd:initiationInterval="16388" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="input.data" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="input.keep" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="input.strb" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="input.user" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="input.last" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="input.id" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="input.dest" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="output.data" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="output.keep" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="output.strb" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="output.user" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="output.last" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="output.id" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="output.dest" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="16387" xd:worst-case="16387" xd:average-case="16387"/>
+  <xd:resourceEstimates xd:LUT="116" xd:FF="99" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,154 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Sep  6 14:35:52 2021
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_umbral_0_5'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_umbral_0_5 (xilinx.com:hls:umbral:1.0) from (Rev. 2109061430) to (Rev. 2109061435)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_umbral_0_5'. These changes may impact your design.
+
+
+-Upgraded port 'input_r_TDATA' width 32 differs from original width 8
+
+-Upgraded port 'input_r_TDEST' width 6 differs from original width 1
+
+-Upgraded port 'input_r_TID' width 5 differs from original width 1
+
+-Upgraded port 'input_r_TKEEP' width 4 differs from original width 1
+
+-Upgraded port 'input_r_TSTRB' width 4 differs from original width 1
+
+-Upgraded port 'input_r_TUSER' width 2 differs from original width 1
+
+-Upgraded port 'output_r_TDATA' width 32 differs from original width 8
+
+-Upgraded port 'output_r_TDEST' width 6 differs from original width 1
+
+-Upgraded port 'output_r_TID' width 5 differs from original width 1
+
+-Upgraded port 'output_r_TKEEP' width 4 differs from original width 1
+
+-Upgraded port 'output_r_TSTRB' width 4 differs from original width 1
+
+-Upgraded port 'output_r_TUSER' width 2 differs from original width 1
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Sep  1 21:38:15 2021
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_umbral_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_umbral_0_3 (xilinx.com:hls:umbral:1.0) from (Rev. 2109012118) to (Rev. 2109012138)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Sep  1 21:20:01 2021
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_umbral_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_umbral_0_3 (xilinx.com:hls:umbral:1.0) from (Rev. 2109011951) to (Rev. 2109012118)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Sep  1 19:52:28 2021
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_umbral_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_umbral_0_3 (xilinx.com:hls:umbral:1.0) from (Rev. 2109011623) to (Rev. 2109011951)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Sep  1 16:23:47 2021
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_umbral_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_umbral_0_3 (xilinx.com:hls:umbral:1.0) from (Rev. 2109011410) to (Rev. 2109011623)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Sep  1 13:53:00 2021
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_umbral_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_umbral_0_2 (xilinx.com:hls:umbral:1.0) from (Rev. 2109011332) to (Rev. 2109011352)
+

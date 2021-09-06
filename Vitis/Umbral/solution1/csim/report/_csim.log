@@ -1,0 +1,68 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../umbral_tb.cpp in debug mode
+csim.mk:72: recipe for target 'obj/umbral_tb.o' failed
+In file included from C:/Xilinx/Vitis_HLS/2020.2/include/floating_point_v7_0_bitacc_cmodel.h:144:0,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/hls_fpo.h:189,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/hls_half_fpo.h:64,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/hls_half.h:71,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/etc/ap_private.h:91,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/ap_common.h:646,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/ap_int.h:55,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/ap_axi_sdata.h:88,
+                 from ../../../umbral.h:1,
+                 from ../../../umbral_tb.cpp:1:
+C:/Xilinx/Vitis_HLS/2020.2/include/gmp.h:63:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from C:/Xilinx/Vitis_HLS/2020.2/include/hls_fpo.h:189:0,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/hls_half_fpo.h:64,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/hls_half.h:71,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/etc/ap_private.h:91,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/ap_common.h:646,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/ap_int.h:55,
+                 from C:/Xilinx/Vitis_HLS/2020.2/include/ap_axi_sdata.h:88,
+                 from ../../../umbral.h:1,
+                 from ../../../umbral_tb.cpp:1:
+C:/Xilinx/Vitis_HLS/2020.2/include/floating_point_v7_0_bitacc_cmodel.h:136:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from ../../../umbral_tb.cpp:1:0:
+../../../umbral.h:7:14: error: 'stream' in namespace 'hls' does not name a template type
+ typedef hls::stream<type> stream_type;
+              ^~~~~~
+../../../umbral.h:9:13: error: variable or field 'umbral' declared void
+ void umbral(stream_type &input, stream_type &output);
+             ^~~~~~~~~~~
+../../../umbral.h:9:13: error: 'stream_type' was not declared in this scope
+../../../umbral.h:9:26: error: 'input' was not declared in this scope
+ void umbral(stream_type &input, stream_type &output);
+                          ^~~~~
+../../../umbral.h:9:33: error: 'stream_type' was not declared in this scope
+ void umbral(stream_type &input, stream_type &output);
+                                 ^~~~~~~~~~~
+../../../umbral.h:9:46: error: 'output' was not declared in this scope
+ void umbral(stream_type &input, stream_type &output);
+                                              ^~~~~~
+../../../umbral_tb.cpp: In function 'int main()':
+../../../umbral_tb.cpp:9:2: error: 'stream_type' was not declared in this scope
+  stream_type input_stream;
+  ^~~~~~~~~~~
+../../../umbral_tb.cpp:10:14: error: expected ';' before 'output_stream'
+  stream_type output_stream;
+              ^~~~~~~~~~~~~
+../../../umbral_tb.cpp:27:3: error: 'input_stream' was not declared in this scope
+   input_stream << p1;
+   ^~~~~~~~~~~~
+../../../umbral_tb.cpp:35:9: error: 'input_stream' was not declared in this scope
+  umbral(input_stream, output_stream);
+         ^~~~~~~~~~~~
+../../../umbral_tb.cpp:35:23: error: 'output_stream' was not declared in this scope
+  umbral(input_stream, output_stream);
+                       ^~~~~~~~~~~~~
+../../../umbral_tb.cpp:35:36: error: 'umbral' was not declared in this scope
+  umbral(input_stream, output_stream);
+                                    ^
+make: *** [obj/umbral_tb.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************
