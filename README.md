@@ -15,15 +15,15 @@ The main purpose of this project is allow researchers and engineers to work with
 
 This project requires of the installation of some previous dependencies to work. The instruction for the installations of each  one of them can be found in the links below.
 
-- *Python3*: https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
+- *Python3*. https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
 
-- *OpenCV*: https://pypi.org/project/opencv-python/
+- *OpenCV*. https://pypi.org/project/opencv-python/
 
-- *Numpy*: https://numpy.org/install/
+- *Numpy*. https://numpy.org/install/
 
-- *PYNQ*: https://pypi.org/project/pynq/
+- *PYNQ*. https://pypi.org/project/pynq/
 
-- *PyAER*: https://github.com/duguyue100/pyaer
+- *PyAER*. https://github.com/duguyue100/pyaer
 
 
 # Folder organization
@@ -31,13 +31,13 @@ This project requires of the installation of some previous dependencies to work.
 This repository includes some folders with the project code. Its contents are as follows:
 
 
-- *Scripts*: Contains the Python codes to run examples of the video pipeline using an event-based sensor and to calculate execution times.
+- ***Scripts***: Contains the Python codes to run examples of the video pipeline using an event-based sensor and to calculate execution times.
 
-- *Overlays*: Contains the necessary files to run the overlays on Xilinx Pynq-Z2.
+- ***Overlays***: Contains the necessary files to run the overlays on Xilinx Pynq-Z2.
 
-- *Vitis*: Provides the IP designs as Vitis HLS projects.
+- ***Vitis***: Provides the IP designs as Vitis HLS projects.
 
-- *Vivado*: Provides the layout desings that use the IP created as Vivado projects.
+- ***Vivado***: Provides the layout desings that use the IP created as Vivado projects.
 
 
 
@@ -45,8 +45,4 @@ This repository includes some folders with the project code. Its contents are as
 
 The code folder provides the sample programs to test the video pipeline and also includes a Makefile to run all the codes. Be free to modificate it for your own purpose. 
 
-
-
-
-**Documentation is being finalized, but the code is complete. Thanks for your patient.**
 
