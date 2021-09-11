@@ -46,3 +46,24 @@ This repository includes some folders with the project code. Its contents are as
 The code folder provides the sample programs to test the video pipeline and also includes a Makefile to run all the codes. Be free to modificate it for your own purpose. 
 
 
+# Work demostration
+
+The following videos show a demostration of the project execution on Ubuntu PC and Xilinx Pynq-Z2, as well as the drawing of the trajectory of the tracking algorithm, 
+respectively.
+
+
+_Tracking demostration running on Ubuntu PC:_
+
+[![PC demostration](https://i.ytimg.com/vi/UdNjM6LrYRM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBI2s5tVrev9iB5aLSnJoMw9t0IA)](https://www.youtube.com/watch?v=UdNjM6LrYRM "Tracking demostration running on Ubuntu PC")
+
+
+_Tracking demostration running on Pynq-Z2:_
+
+[![Pynq demostration](https://i.ytimg.com/vi/dHFL4miaB2w/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCXlE0ds4hfJqgnOSn2LR_2PInHng)](https://www.youtube.com/watch?v=dHFL4miaB2w "Tracking demostration running on Pynq-Z2")
+
+
+_Tracking trajectory drawing:_
+
+[![trayectory drawing](https://i.ytimg.com/vi/i-IKgQ25ILg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg1a2taP8JsUzxDLKfGfzt8LZExQ)](https://www.youtube.com/watch?v=i-IKgQ25ILg "Tracking trajectory drawing")
+
+
