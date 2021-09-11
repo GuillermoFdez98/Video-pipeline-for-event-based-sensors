@@ -10,7 +10,7 @@ The main purpose of this project is allow researchers and engineers to work with
 
 
 
-# Dependency installation
+## Dependency installation
 
 
 This project requires of the installation of some previous dependencies to work. The instruction for the installations of each  one of them can be found in the links below.
@@ -26,7 +26,7 @@ This project requires of the installation of some previous dependencies to work.
 - *PyAER*. https://github.com/duguyue100/pyaer
 
 
-# Folder organization
+## Folder organization
 
 This repository includes some folders with the project code. Its contents are as follows:
 
@@ -41,12 +41,12 @@ This repository includes some folders with the project code. Its contents are as
 
 
 
-# Running examples
+## Running examples
 
 The code folder provides the sample programs to test the video pipeline and also includes a Makefile to run all the codes. Be free to modificate it for your own purpose. 
 
 
-# Work demostration
+## Work demostration
 
 The following videos show a demostration of the project execution on Ubuntu PC and Xilinx Pynq-Z2, as well as the drawing of the trajectory of the tracking algorithm, 
 respectively.
